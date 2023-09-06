@@ -1,0 +1,67 @@
+
+
+.container{
+    margin: 0 auto;
+    width: 358px;
+    padding: 0 15px;
+
+}
+
+.title{
+    margin: 0 auto;
+    width: 203px;
+margin-bottom: 10px;
+font-family: Montserrat;
+font-size: 40px;
+text-align: center;
+line-height: 1.42;
+letter-spacing: 0.2px;
+}
+
+
+.text {
+    margin: 0 auto;
+    width: 262px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    line-height: 1.42;
+letter-spacing: 0.2px;
+}
+.list {
+    margin: 0 auto;
+}
+.list-item {
+    height: 231px;
+    background-color: #406af6;
+}
+
+.list-item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+@media (min-width:1080px){
+    .container{
+    width: 1076px;
+}
+
+.title{
+    width: auto;
+}
+
+.text{
+    margin-bottom: 80px;
+}
+
+.list{
+    display: flex;
+}
+
+.list-item{
+    width: calc((100%-60px) /3);
+}
+}
