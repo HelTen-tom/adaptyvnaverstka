@@ -1,13 +1,17 @@
+meet{
+    padding-top: 75px;
+    padding-bottom: 124px;
 
+}
 
-.container{
+.meet-container{
     margin: 0 auto;
     width: 358px;
     padding: 0 15px;
 
 }
 
-.title{
+.meet-title{
     margin: 0 auto;
     width: 203px;
 margin-bottom: 10px;
@@ -19,7 +23,7 @@ letter-spacing: 0.2px;
 }
 
 
-.text {
+.meet-text {
     margin: 0 auto;
     width: 262px;
     margin-bottom: 45px;
@@ -31,37 +35,127 @@ letter-spacing: 0.2px;
     line-height: 1.42;
 letter-spacing: 0.2px;
 }
-.list {
+.meet-list {
     margin: 0 auto;
 }
-.list-item {
+.meet-list {
     height: 231px;
     background-color: #406af6;
 }
 
-.list-item:not(:last-child){
+.meet-list-item:not(:last-child){
     margin-bottom: 30px;
 }
 
 
 @media (min-width:1080px){
-    .container{
+
+    meet{
+        padding-top: 80px;
+        padding-bottom: 92px;
+    }
+    .meet-container{
     width: 1076px;
 }
 
-.title{
+.meet-title{
     width: auto;
 }
 
-.text{
+.meet-text{
     margin-bottom: 80px;
 }
 
-.list{
+.meet-list{
     display: flex;
+    gap: 30px;
+    
 }
 
 .list-item{
     width: calc((100%-60px) /3);
+}
+.list-item:not(:last-child){
+    margin-bottom: 0;
+
+}
+}
+
+.who{
+    padding-top: 98px;
+    padding-bottom: 174px;
+    background: linear-gradient( #F3F3F3 calc(100% - 410px), #000000 410px);
+}
+
+.who-container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 310px;
+}
+.who-title {
+    margin-bottom: 10px;
+    color: #252B42;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
+}
+.who-text {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 225px;
+    color: #252B42;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
+}
+.who-video {
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    height: 442px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-mobile.jpg);
+       
+}
+
+.who-video::before{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: #0D5C63;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
+}
+
+@media(min-width: 1080px) {
+.who{
+    padding: 80px 0;
+    background: linear-gradient( #F3F3F3 calc(100% - 350px), #000000 350px);
+}
+
+    .who-container {
+    width: 880px;
+
+}
+
+.who-text {
+    margin-bottom: 50px;
+    width: 470px;
+}
+.who-video {
+    width: 877px;
+    height: 442px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-desct.jpg);
 }
 }
