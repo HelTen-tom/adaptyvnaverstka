@@ -1,13 +1,13 @@
 meet{
-    padding-top: 75px;
-    padding-bottom: 124px;
+    /*padding-top: 75px;*/
+    padding-bottom: 30px;
 
 }
 
 .meet-container{
     margin: 0 auto;
     width: 358px;
-    padding: 0 15px;
+    padding: 75px 15px 90px;
 
 }
 
@@ -15,7 +15,6 @@ meet{
     margin: 0 auto;
     width: 203px;
 margin-bottom: 10px;
-font-family: Montserrat;
 font-size: 40px;
 text-align: center;
 line-height: 1.42;
@@ -28,7 +27,6 @@ letter-spacing: 0.2px;
     width: 262px;
     margin-bottom: 45px;
     text-align: center;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px; /* 142.857% */
@@ -36,95 +34,108 @@ letter-spacing: 0.2px;
 letter-spacing: 0.2px;
 }
 .meet-list {
-    width: 328px;
+    margin: 0 auto;
+   /* width: 328px;
     height: 373px;
     margin: 0 auto;
     margin-bottom: 30px;
-    /* padding: 30px; */
+    /* padding: 30px; 
     height: 231px;
     /* background-color: #406af6; */
    
 }
 
 .meet-list-item {
-    border: 1px solid #000;
+    
+    width: 328px;
+    height: 373px;
+    border: 1px solid #EEE;
 }
 
 .meet-list-item-image {
+    
     margin-bottom: 30px;
 }
 
 .meet-list-item-text{
-    display: flex;
+    /*display: flex;
     gap: 5px;
     max-width: 0 auto;
-    padding: 30px;
+    padding: 30px;*/
 }
 
 .meet-list-item:not(:last-child){
-    margin-bottom: 30px;
-}
-.meet-list-item-image {
-
-
+    /* margin-bottom: 30px; */
 }
 
 .meet-list-item-name {
+    margin: 0 auto;
     margin-bottom: 5px;
+    text-align: center;
     color: #252B42;
     text-align: center;
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
-line-height: 1.5;
-letter-spacing: 0.1px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
 }
 
 .meet-list-item-spec {
-    margin-bottom: 5px;
+
     margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #737373;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
 
 }
 
 
 .meet-list-item-media {
-        margin: 0 auto;
-    /* width: 232px; */
+    
     display: flex;
-    /* justify-content: center; */
+    width: 24px;
+    height: 24px;
     gap: 15px;
+     /* margin: 0 auto;
+    width: 232px;
+    display: flex;
+    justify-content: center; 
+    gap: 15px; */
 }
 
 
 @media (min-width:1080px){
 
     meet{
-        padding-top: 80px;
-        padding-bottom: 92px;
+        /* padding-top: 80px;
+        padding-bottom: 92px; */
     }
     .meet-container{
-    width: 1076px;
+    /* width: 1076px; */
 }
 
 .meet-title{
-    width: auto;
+    /* width: auto; */
 }
 
 .meet-text{
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .meet-list{
-    display: flex;
-    gap: 30px;
+    /* display: flex;
+    gap: 30px; */
     
 }
 
 .list-item{
-    width: calc((100%-60px) /3);
+    /* width: calc((100%-60px) /3); */
 }
 .list-item:not(:last-child){
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 
 }
 }
