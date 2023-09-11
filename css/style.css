@@ -23,16 +23,20 @@ header{
 }
 
 .hero-title {
+}
+.hero-nav-menu {
+}
+.hero-nav-menu-list-name {
+    display: flex;
+}
+.hero-nav-menu-list-name-item {
+}
+.hero-nav-menu-list-pctr {
+}
+.hero-nav-menu-list-pctr-item {
+}
 
-}
-.hero-list-name {
-}
-.hero-list-name-item {
-}
-.hero-list-pctr {
-}
-.hero-list-pctr-item {
-}
+
 @media (min-width:1080px){
     header{
         position: absolute;
@@ -45,6 +49,27 @@ header{
         padding: 200px 0;
 }
 }
+
+/*FIRST*/
+
+.first {
+    padding: 80px 0;
+}
+.first-container {
+}
+.first-title {
+}
+.first-text {
+}
+.first-btn {
+}
+.first-btn-get {
+}
+.first-btn-lern {
+}
+
+
+
 
 /*WHO*/
 
