@@ -18,8 +18,9 @@ p {
     margin: 0;
 }
 
-ul, ol {
+ul,ol{
     margin: 0;
+    pading: 0;
     list-style: none;
 }
 a{
