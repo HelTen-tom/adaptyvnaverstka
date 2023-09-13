@@ -426,13 +426,14 @@ display: none;
     }
     
     .consulting-text-container{
+        position: relative;
         margin: 0 360px 0 0;
         width: 100%;
         
     }
     
     .consulting-text-container-title {
-        width: 454px;
+        width: auto;
         
         }
     
@@ -440,23 +441,17 @@ display: none;
     
     
     .consulting-text-container-text {
-        margin-bottom: 10px;
-        width: 273px;
+            width: auto;
         
     }
     
     .consulting-btn {
+        position: absolute;
+
+
         padding: 15px 40px;
-        width: 285px;
-        height: 58px;
-        color: #FFF;
-        text-align: center;
-        font-weight: 700;
-        line-height: 2; 
-        letter-spacing: 0.2px;
-        border-radius: 5px;
-        background-color: #FF7B47;
-        border-color: transparent;
+        width: 236px;
+        right: 50px;
         
     }
     
