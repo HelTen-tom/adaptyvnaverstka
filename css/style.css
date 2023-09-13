@@ -373,6 +373,7 @@ display: none;
 }
 
 .consulting-text-container-title {
+    margin-bottom: 10px;
     color: #252B42;
     font-size: 24px;
     font-weight: 700;
@@ -419,35 +420,29 @@ display: none;
         padding: 40px 195px;
     }
     .consultung-container {
-        margin: 0 auto;
+        display: flex;
         width: 1050px;
         
     }
     
     .consulting-text-container{
-        margin: 0 auto;
-        width: 570px;
-        display: flex;
+        margin: 0 360px 0 0;
+        width: 100%;
+        
     }
     
     .consulting-text-container-title {
-        color: #252B42;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 1.33; 
-        letter-spacing: 0.1px;
+        width: 454px;
+        
         }
     
         
     
     
     .consulting-text-container-text {
-        margin-bottom: 50px;
-        width: 184px;
-        color: #737373;
-        font-weight: 500;
-        line-height: 1.42; /* 142.857% */
-        letter-spacing: 0.2px;
+        margin-bottom: 10px;
+        width: 273px;
+        
     }
     
     .consulting-btn {
