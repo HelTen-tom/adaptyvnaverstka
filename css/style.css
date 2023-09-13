@@ -359,15 +359,20 @@ display: none;
 /*CONSULTING*/
 
 .consulting {
+    padding: 40px 67px;
 }
 .consultung-container {
-    margin-top: 0 auto;
-    width: 382px;
-    height: 302px;
+    margin: 0 auto;
+    width: 285px;
+    
 }
-.consulting-title {
-    width: 239px;
-    height: 64px;
+
+.consulting-text-container{
+    margin: 0 auto;
+    width: 243px;
+}
+
+.consulting-text-container-title {
     color: #252B42;
     font-size: 24px;
     font-weight: 700;
@@ -375,8 +380,12 @@ display: none;
     letter-spacing: 0.1px;
     }
 
+    
 
-.consulting-text {
+
+.consulting-text-container-text {
+    margin-bottom: 50px;
+    width: 184px;
     color: #737373;
     font-weight: 500;
     line-height: 1.42; /* 142.857% */
@@ -385,7 +394,7 @@ display: none;
 
 .consulting-btn {
     padding: 15px 40px;
-    width: 283px;
+    width: 285px;
     height: 58px;
     color: #FFF;
     text-align: center;
@@ -394,15 +403,78 @@ display: none;
     letter-spacing: 0.2px;
     border-radius: 5px;
     background-color: #FF7B47;
+    border-color: transparent;
+    
+}
 
+.consulting-btn:hover{
+    color: #FF7B47;
+    border-color: #FF7B47;
+    background-color: #FFFFFF;
 }
 
 
+@media ((min-width:1080px)) {
+    .consulting {
+        padding: 40px 195px;
+    }
+    .consultung-container {
+        margin: 0 auto;
+        width: 1050px;
+        
+    }
+    
+    .consulting-text-container{
+        margin: 0 auto;
+        width: 570px;
+        display: flex;
+    }
+    
+    .consulting-text-container-title {
+        color: #252B42;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.33; 
+        letter-spacing: 0.1px;
+        }
+    
+        
+    
+    
+    .consulting-text-container-text {
+        margin-bottom: 50px;
+        width: 184px;
+        color: #737373;
+        font-weight: 500;
+        line-height: 1.42; /* 142.857% */
+        letter-spacing: 0.2px;
+    }
+    
+    .consulting-btn {
+        padding: 15px 40px;
+        width: 285px;
+        height: 58px;
+        color: #FFF;
+        text-align: center;
+        font-weight: 700;
+        line-height: 2; 
+        letter-spacing: 0.2px;
+        border-radius: 5px;
+        background-color: #FF7B47;
+        border-color: transparent;
+        
+    }
+    
+    .consulting-btn:hover{
+        color: #FF7B47;
+        border-color: #FF7B47;
+        background-color: #FFFFFF;
+    }
+}
 
 /*FOOTER*/
 
 .footer-top {
-    
     background-color: #252B42;
 }
 
@@ -710,4 +782,8 @@ display: none;
     
     }
 
+/*@media FOOTER*/
 
+@media (min-width: 1080px){
+
+}
