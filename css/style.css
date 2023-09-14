@@ -18,16 +18,25 @@ header{
 }
 .hero{
     padding: 23px 38px 98px 35px;
+    width: 414px;
+    height: 532px;
     list-style: none;
-    background-color: #fafafa;
+    background-color: #F6F6F6;
+    
 }
 
 .hero-title {
 }
 .hero-nav-menu {
+    position: relative;
 }
 .hero-nav-menu-list-name {
-    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+    
 }
 .hero-nav-menu-list-name-item {
 }
