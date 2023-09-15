@@ -316,6 +316,8 @@ display: none;
 .what {
     padding-top: 75px;
     padding-bottom: 94px;
+    background: #FAFAFA;
+    
 }
 
 .what-container{
@@ -384,6 +386,13 @@ display: none;
 
 }
 .what-list-item-client-pctr {
+    border-radius: 50px;
+    order: 1px solid #BDBDBD;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+Ellipse 2
+Image · 700 x 700
+
 }
 .what-list-item-client-name {
     color: #FF7B47;
@@ -708,15 +717,15 @@ display: none;
     
     .what-container{
         margin: 0 auto;
-        padding: 80px 0;
-        /* width: 1440px; */
+        /* padding: 80px 0; */
+        width: 1050px;
 
 
     }
 
 
     .what-title {
-        width: 346px;
+        width: 100%;
         
     }
     .what-descrip {
@@ -733,20 +742,20 @@ display: none;
         padding-left: 0;
         display: flex;
         /* padding: 30px 35px; */
-        width: 327px;
-        gap: 32.5px;
+        width: 100%;
+        gap: 32px;
     }
     .what-list-item {
-        margin: 0 auto;
-        padding: 30px 0;
+       padding: 30px 35px;
         width: 327px;
         border-radius: 5px;
         border: 1px solid #DEDEDE;
+        background-color: #FFF;
         
     }
     
     .what-list-item:not(:last-child){
-        margin-bottom: 30px;
+        margin-bottom: 0;
      }
     
     .what-list-item-svg {
