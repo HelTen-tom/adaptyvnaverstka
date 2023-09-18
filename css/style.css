@@ -1,6 +1,57 @@
 
 /*HEADER*/
 
+
+.header-container {
+}
+.header-mobile-wrap {
+}
+.header-logo {
+}
+.header-service {
+}
+.header-service-item {
+}
+.header-service-item-btn {
+    display: block;
+    width: 24px;
+    h24
+}
+.header-service-item-btn-icon {
+    
+}
+
+.header-menu {
+}
+.header-menu-icon {
+}
+.header-mobile-menu {
+}
+.header-mobile-menu-list {
+}
+.header-mobile-menu-list-item {
+}
+.header-mobile-menu-list-item-link {
+}
+
+
+
+
+
+
+
+
+
+.header-service-item-btn,
+.header-menu{
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+
 header{
     padding: 25px 0;
     list-style: none;
@@ -474,8 +525,7 @@ display: none;
     order: 1px solid #BDBDBD;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
-Ellipse 2
-Image · 700 x 700
+
 
 }
 .what-list-item-client-name {
@@ -1041,4 +1091,4 @@ Image · 700 x 700
         letter-spacing: 0.2px;
         /* border: 2px solid #FF7B47; */
     }
-}
+
