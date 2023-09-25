@@ -29,7 +29,13 @@ a{
 }
 
 button{
+    padding: 0;
     color: inherit;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+
 }
 
 

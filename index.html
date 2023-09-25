@@ -18,32 +18,46 @@
   </head>
   <body>
     <header>
-
-
-
-      
       <div class="header-container">
-
         <div class="header-mobile-wrap">
           <a href="#" class="header-logo">Consultal</a>
+          <nav class="header-menu">
+            <ul class="header-menu-list">
+              <li class="header-menu-list-item">
+                <a href="#" class="header-menu-list-item-link">Home</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a href="#" class="header-menu-list-item-link">Product</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a href="#" class="header-menu-list-item-link">Pricing</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a href="#" class="header-menu-list-item-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
           <ul class="header-service">
-            <li class="header-service-item"><button class="header-service-item-btn" type="button">
-              <svg class="header-service-item-btn-icon">
-                <use href="./img/icons.svg#icon-search"></use>
-              </svg>
-            </button class="header-service-item-btn-icon"></li>
-            <li class="header-service-item"><button class="header-service-item-btn type="button">
-              <svg class="header-service-item-btn-icon">
-                <use href="./img/icons.svg#icon-shopping"></use>
-              </svg>
-            </button></li>
+            <li class="header-service-item">
+              <button class="header-service-item-btn" type="button">
+                <svg class="header-service-item-btn-icon search">
+                  <use href="./img/icons.svg#icon-search"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="header-service-item">
+              <button class="header-service-item-btn" type="button">
+                <svg class="header-service-item-btn-icon shopping">
+                  <use href="./img/icons.svg#icon-shopping"></use>
+                </svg>
+              </button>
+            </li>
           </ul>
-          <button class="header-menu" type="button">
+          <button class="header-burger" type="button">
             <svg class="header-menu-icon">
               <use href="./img/icons.svg#icon-menu"></use>
             </svg>
           </button>
-          
         </div>
         <nav class="header-mobile-menu">
           <ul class="header-mobile-menu-list">
@@ -62,7 +76,7 @@
           </ul>
         </nav>
       </div>
-     <!-- <---! <section class="hero">
+      <!-- <---! <section class="hero">
         <div class="hero-container">
           <h3 class="hero-title">Consultal</h3>
           <nav class="hero-nav-menu">
@@ -114,48 +128,43 @@
             We know how large objects will act, but things on a small scale just
             do not act that way.
           </p>
-          <div class="first-btn">
-            <button class="first-btn-get" type="button">Get Quote Now</button>
-            <button class="first-btn-lern" type="button">Learn More</button>
+          <div class="first-btn-wrap">
+            <button class="first-btn" type="button">Get Quote Now</button>
+            <button class="first-btn" type="button">Learn More</button>
           </div>
         </div>
       </section>
 
-<section class="make">
-    <div class="make-container">
-<p class="make-text">Contact Us</p>
-  <h3 class="made-title">Make an 
-  Appointment</h3>
-  <form class="made-title-form" action="">
-<div class="made-title-form-wrap-input">
-  <input type="text">
-  <input type="email">
-  <select name="select" id="">
-    <option value="value1" selected>Available</option>
-    <option value="value1">5:00</option>
-    <option value="value2">6:00</option>
-  </select>
-  </div>
-  <input class="make-form-aria" type="text-aria">
-  <input type="text">
+      <section class="industry">
+        <div class="industry-container">
+          <h2 class="industry-title"></h2>
+          <p class="industry-text"></p>
+          <div class="industry-service">
+            <ul class="industry-service-list">
+              <li class="industry-service-list-item">
+                <svg>
+                  <use href="./img"></use>
+                </svg>
+              </li>
+              <li class="industry-service-list-item">
 
-  </form>
-    </div>
-    </section>
-    <div class="make-footer">
-      <div class="make-footer-wrap-text"></div>
-      <h3 class="make-footer-title">Consulting Agency 
-        For Your Business</h3>
-      <p>
+              </li>
+              <li class="industry-service-list-item">
 
-      </p>
-      <button type="button"></button>
+              </li>
+              <li class="industry-service-list-item">
 
-    </div>
-  </div>
-</section>
+              </li>
+              <li class="industry-service-list-item">
 
+              </li>
+              <li class="industry-service-list-item">
 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section class="who">
         <div class="who-container">
@@ -448,13 +457,50 @@
         </div>
       </section>
 
+      <section class="make">
+        <div class="make-container">
+          <div class="make-top">
+            <p class="make-top-text">Contact Us</p>
+          </div>
+
+          <div class="make-footer">
+            <div class="make-footer-wrap-text">
+              <h3 class="make-footer-wrap-title">Make an Appointment</h3>
+              <p class="make-footer-wrap-text"></p>
+            </div>
+          </div>
+
+          
+          <h3 class="made-title">Make an Appointment</h3>
+          <form class="made-title-form" action="">
+            <div class="made-title-form-wrap-input">
+              <input type="text" />
+              <input type="email" />
+              <select name="select" id="">
+                <option value="value1" selected>Available</option>
+                <option value="value1">5:00</option>
+                <option value="value2">6:00</option>
+              </select>
+            </div>
+            <input class="make-form-aria" type="text-aria" />
+            <input type="text" />
+          </form>
+        </div>
+      </section>
+      <div class="make-footer">
+        <div class="make-footer-wrap-text"></div>
+        <h3 class="make-footer-title">Consulting Agency For Your Business</h3>
+        <p></p>
+        <button type="button"></button>
+      </div>
+
       <section class="consulting">
         <div class="consultung-container">
-          <div class="consulting-text-container">
-            <h3 class="consulting-text-container-title">
+          <div class="consulting-inform">
+            <h3 class="consulting-inform-title">
               Consulting Agency For Your Business
             </h3>
-            <p class="consulting-text-container-text">
+            <p class="consulting-inform-text">
               the quick fox jumps over the lazy dog
             </p>
           </div>
