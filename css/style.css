@@ -59,7 +59,7 @@ header{
 .header-burger-icon {
     display: block;
     width: 24px;
-    height: 14px;
+    height: 24px;
 }
 .header-mobile-menu {
     
@@ -268,6 +268,36 @@ header{
 
 /*section make*/
 
+
+.make {
+}
+.make-container {
+}
+.make-top {
+}
+.make-top-text {
+}
+.make-footer-wrap-title {
+}
+.make-top-form {
+}
+.make-top-form-wrap-input {
+}
+.make-top-form-input {
+}
+.make-top-form-select {
+}
+.make-top-form-aria {
+}
+.make-top-form-btn {
+}
+
+
+
+
+
+
+
 .make {
     padding-top: 115px;
     padding-bottom: 85px;
@@ -287,7 +317,7 @@ header{
     line-height: 1.5; 
     letter-spacing: 0.1px;
 }
-.made-title {
+.make-title {
     color: #252B42;
     font-size: 40px;
     font-weight: 700;
@@ -679,7 +709,7 @@ display: none;
     letter-spacing: 0.2px;
 }
 
-.consulting-btn {
+.consulting-inform-btn {
     padding: 15px 40px;
     width: 285px;
     height: 58px;
