@@ -135,6 +135,7 @@ header{
 
 .first {
     text-align: center; 
+    background-color: #FAFAFA;;
 
 
 }
@@ -188,10 +189,10 @@ header{
 
 
 @media (min-width:1080px){
-    .header{
+    header{
         position: absolute;
         left: 50%;
-        border-color: #fafafa;
+        background-color: #fafafa;
         transform: translateX(-50%);
     }
 
@@ -358,7 +359,94 @@ header{
 
 /*INDUSTRY*/
 
+.industry {
+    margin: 0 auto;
+    padding: 75px 0 160px;
+    
+}
+.industry-container {
+    margin: 0 auto;
+    width: 334px;
+    
+}
+.industry-title {
+    text-align: center;
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
+    
+}
+.industry-text {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+    width: 305px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
+}
+.industry-service {
+    
+}
+.industry-service-list {
+    
+    display: flex;
+    padding-left: 0;
+    
+    /* width: 328px; */
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
 
+.industry-service-list-item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+.industry-service-list-item {
+    padding: 35px 40px;
+    border: 1px solid #E8E8E8;
+    background: #FFF; 
+    
+}
+.industry-service-list-item-wrap {
+    display: flex;
+    /* align-items: center; */
+    
+}
+.industry-service-list-item-icon {
+    margin-right: 15px;
+    width: 48px;
+}
+
+.industry-service-list-item-icon.box{
+    height: 40.8px;
+}
+
+.industry-service-list-item-icon.twotone2{
+    height: 47.4em;
+}
+
+.industry-service-list-item-title {
+    width: 156px;
+    color: #252B42;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+}
+.industry-service-list-item-text {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
+}
 
 
 
