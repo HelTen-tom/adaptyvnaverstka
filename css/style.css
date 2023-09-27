@@ -183,6 +183,7 @@ header{
 }
 
 .first-btn:last-child{
+    margin-bottom: 52px;
     color: #0D5C63;
     border: 1px solid #0D5C63;
 }
@@ -411,6 +412,8 @@ header{
 
 .industry-service-list-item {
     padding: 35px 40px;
+    width: 328px;
+    height: 193px;
     border: 1px solid #E8E8E8;
     background: #FFF; 
     
@@ -429,9 +432,24 @@ header{
     height: 40.8px;
 }
 
-.industry-service-list-item-icon.twotone2{
-    height: 47.4em;
+.industry-service-list-item-icon.twotone{
+    height: 47.4px;
 }
+.industry-service-list-item-icon.notebook{
+    height: 38px;
+}
+.industry-service-list-item-icon.users{
+    height: 44.2px;
+}
+.industry-service-list-item-icon.stats{
+    height: 27px;
+}
+.industry-service-list-item-icon.award{
+    width: 36px;
+    height: 48px;
+}
+
+
 
 .industry-service-list-item-title {
     width: 156px;
@@ -449,7 +467,18 @@ header{
 }
 
 
-
+@media (min-width:1080px){
+    .industry {
+               padding: 145px 0 100px;
+    }
+        
+        
+    
+    .industry-container {
+       
+        width: 864px;
+}
+}
 
 
 
